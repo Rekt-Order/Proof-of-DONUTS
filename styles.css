@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    background: #606a73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#triangle, #answer {
+    position: absolute;
+}
+
+#triangle {
+ margin       : auto;
+  width        : 300px;
+  height       : 370px;
+  background   : linear-gradient(to bottom, #ffffff, #ececec);
+}
+
+#answer {
+    color: #45484a;
+    font-weight: bold;
+    font-size: 1.5em;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 1%;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
